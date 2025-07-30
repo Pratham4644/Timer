@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: #27293d;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    width: 320px;
+    transition: all 0.3s ease;
+}
+
+
+h1 {
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    color: #FDCB6E;
+}
+
+
+.input-box input {
+    width: 70px;
+    padding: 0.6rem;
+    margin: 0.4rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 2px solid #57606f;
+    background: #1e272e;
+    color: #f1f2f6;
+    transition: 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #FDCB6E;
+    outline: none;
+}
+
+
+.buttons {
+    margin: 1.2rem 0;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    margin: 0 0.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    background-color: #00cec9;
+    color: #2d3436;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #00b894;
+    transform: scale(1.05);
+}
+
+/* ⏳ Countdown Display */
+.countdown-display {
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #fab1a0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* ✅ Done Message */
+#done-msg {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #55efc4;
+    font-weight: bold;
+}
